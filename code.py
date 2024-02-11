@@ -37,9 +37,6 @@ BATCH_SIZE = 32
 IMG_HEIGHT =299
 IMG_WIDTH = 299
 
-#from google.colab import drive
-#drive.mount('/content/gdrive')
-
 gen = ImageDataGenerator(rescale = 1./255,
                          zoom_range = 0.05,
                          width_shift_range = 0.05,
